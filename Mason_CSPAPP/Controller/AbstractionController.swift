@@ -8,7 +8,8 @@
 
 import UIKit
 
-class AbstractionController: UIViewController {
+class AbstractionController: UIPageViewController, UIPageViewControllerDataSource
+{
 
     private (set) lazy var orderedAbstractionViews : [UIViewController] =
     {
@@ -24,8 +25,7 @@ class AbstractionController: UIViewController {
     //Helper method to retrieve the correct ViewController
     private func newAbstractionViewController(abstractionLevel : String) -> UIViewController
     {
-        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "\
-            (abstractionLevel)ViewController"
+        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "\(abstractionLevel)ViewController")
     }
     
     override func viewDidLoad()
@@ -35,10 +35,10 @@ class AbstractionController: UIViewController {
         
         if let firstViewController = orderedAbstractionViews.first
         {
-            setViewController([firstViewController],
-                direction: .forward,
-                animated: true,
-                completio: nil)
+            setViewControllers([firstViewController],
+                              direction: .forward,
+                              animated: true,
+                              completion: nil)
         }
     }
     
@@ -69,7 +69,7 @@ class AbstractionController: UIViewController {
         return orderedAbstractionViews[previousIndex]
     }
     
-    public func pageViewController(_ pageViewController: UIViewController, viewControllerAfter
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter
         viewController: UIViewController) -> UIViewController?
     {
         guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
@@ -94,15 +94,10 @@ class AbstractionController: UIViewController {
         
         return orderedAbstractionViews[nextIndex]
     }
-    
-    public func pageViewcontroller(_ pageViewController: UIPageViewController,viewControllerBefore
-        viewController UIViewController) -> UIViewController?
-    public func pageViewcontroller(_ pageViewController: UIPageViewController,viewControllerAfter
-        viewController UIViewController) -> UIViewController?
-    
+
     //MARK:- Support for dots in the UIPageController
     
-    public func prestationCount(for pageViewController: UIPageViewController) -> Int
+    public func presentationCount(for pageViewController: UIPageViewController) -> Int
     {
         return orderedAbstractionViews.count
     }
@@ -118,22 +113,5 @@ class AbstractionController: UIViewController {
         
         return firstViewControllerIndex
     }
-    
-        // Do any additional setup after loading the view.
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

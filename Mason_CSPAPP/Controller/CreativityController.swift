@@ -77,7 +77,7 @@ class CreativityController: UICollectionViewController, UICollectionViewDelegate
         let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
         
         artCell.backgroundColor = .purple
-        artCell.imageView.image = artSelection[indexPathRow]
+        artCell.imageView.image = artSelection[indexPath.row]
         artCell.imageName.text = "My Art"
         
         return artCell
@@ -101,7 +101,7 @@ class CreativityController: UICollectionViewController, UICollectionViewDelegate
         let availableWidth = view.frame.width - paddingSpace
         let widthPerRow = availableWidth / itemsPerRow
         
-        return CGSize(width: widthPerItem, height: widthPerItem)
+        return CGSize(width: widthPerRow, height: widthPerRow)
     }
     
     public func collectionView(_ collectionView: UICollectionView,

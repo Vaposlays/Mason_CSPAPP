@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2E00CCCA1FCF0B4A0017EDB1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E00CCC91FCF0B4A0017EDB1 /* WebKit.framework */; };
-		2E13E6581FBB401800927C6F /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E13E6571FBB401800927C6F /* GlobalImpactController.swift */; };
 		2E42B9931FD6EFDB00573CBE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E42B9921FD6EFDB00573CBE /* DrawingView.swift */; };
 		2E5140E61FD99C7500131B9B /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5140E51FD99C7500131B9B /* ArtCell.swift */; };
 		2E806C9B1FA2203C002584D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E806C9A1FA2203C002584D8 /* AppDelegate.swift */; };
@@ -22,10 +21,10 @@
 		2E806CDA1FA22561002584D8 /* AbstractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E806CD91FA22561002584D8 /* AbstractionController.swift */; };
 		2E806CDC1FA22572002584D8 /* DataAndInformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E806CDB1FA22572002584D8 /* DataAndInformationController.swift */; };
 		2E806CDE1FA22589002584D8 /* AlgorithmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E806CDD1FA22589002584D8 /* AlgorithmController.swift */; };
-		2E820CF71FD1B4CA007E7529 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E820CF61FD1B4CA007E7529 /* InternetDetailViewController.swift */; };
-		2E820CF91FD1B4D0007E7529 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E820CF81FD1B4D0007E7529 /* InternetMasterViewController.swift */; };
 		2EED73041FC32C0D0062315E /* Wearable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EED73031FC32C0D0062315E /* Wearable.swift */; };
 		2EED73061FC32C180062315E /* DebugWear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EED73051FC32C180062315E /* DebugWear.swift */; };
+		2EFBF7B51FDED18100AF8DB4 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBF7B31FDED18100AF8DB4 /* InternetDetailViewController.swift */; };
+		2EFBF7B61FDED18100AF8DB4 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBF7B41FDED18100AF8DB4 /* InternetMasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +46,6 @@
 
 /* Begin PBXFileReference section */
 		2E00CCC91FCF0B4A0017EDB1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		2E13E6571FBB401800927C6F /* GlobalImpactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalImpactController.swift; path = Mason_CSPAPP/Controller/GlobalImpactController.swift; sourceTree = "<group>"; };
 		2E42B9921FD6EFDB00573CBE /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		2E5140E51FD99C7500131B9B /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		2E806C971FA2203C002584D8 /* Mason_CSPAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mason_CSPAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,10 +63,10 @@
 		2E806CD91FA22561002584D8 /* AbstractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionController.swift; sourceTree = "<group>"; };
 		2E806CDB1FA22572002584D8 /* DataAndInformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInformationController.swift; sourceTree = "<group>"; };
 		2E806CDD1FA22589002584D8 /* AlgorithmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmController.swift; sourceTree = "<group>"; };
-		2E820CF61FD1B4CA007E7529 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InternetDetailViewController.swift; path = ../../../../../.Trash/InternetDetailViewController.swift; sourceTree = "<group>"; };
-		2E820CF81FD1B4D0007E7529 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InternetMasterViewController.swift; path = ../../../../../.Trash/InternetMasterViewController.swift; sourceTree = "<group>"; };
 		2EED73031FC32C0D0062315E /* Wearable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wearable.swift; sourceTree = "<group>"; };
 		2EED73051FC32C180062315E /* DebugWear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugWear.swift; sourceTree = "<group>"; };
+		2EFBF7B31FDED18100AF8DB4 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		2EFBF7B41FDED18100AF8DB4 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 		2E806C8E1FA2203C002584D8 = {
 			isa = PBXGroup;
 			children = (
-				2E13E6571FBB401800927C6F /* GlobalImpactController.swift */,
 				2E806C991FA2203C002584D8 /* Mason_CSPAPP */,
 				2E806C981FA2203C002584D8 /* Products */,
 				2E00CCC81FCF0B490017EDB1 /* Frameworks */,
@@ -139,6 +136,8 @@
 		2E806CC81FA2206B002584D8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2EFBF7B31FDED18100AF8DB4 /* InternetDetailViewController.swift */,
+				2EFBF7B41FDED18100AF8DB4 /* InternetMasterViewController.swift */,
 				2E806C9A1FA2203C002584D8 /* AppDelegate.swift */,
 				2E806C9C1FA2203C002584D8 /* ViewController.swift */,
 				2E806CD11FA22500002584D8 /* CreativityController.swift */,
@@ -147,8 +146,6 @@
 				2E806CD91FA22561002584D8 /* AbstractionController.swift */,
 				2E806CDB1FA22572002584D8 /* DataAndInformationController.swift */,
 				2E806CDD1FA22589002584D8 /* AlgorithmController.swift */,
-				2E820CF81FD1B4D0007E7529 /* InternetMasterViewController.swift */,
-				2E820CF61FD1B4CA007E7529 /* InternetDetailViewController.swift */,
 				2E5140E51FD99C7500131B9B /* ArtCell.swift */,
 			);
 			path = Controller;
@@ -316,14 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E13E6581FBB401800927C6F /* GlobalImpactController.swift in Sources */,
 				2E806CDA1FA22561002584D8 /* AbstractionController.swift in Sources */,
 				2E5140E61FD99C7500131B9B /* ArtCell.swift in Sources */,
 				2E806CDE1FA22589002584D8 /* AlgorithmController.swift in Sources */,
 				2E806CD81FA22543002584D8 /* GlobalImpactController.swift in Sources */,
 				2EED73061FC32C180062315E /* DebugWear.swift in Sources */,
-				2E820CF71FD1B4CA007E7529 /* InternetDetailViewController.swift in Sources */,
-				2E820CF91FD1B4D0007E7529 /* InternetMasterViewController.swift in Sources */,
+				2EFBF7B61FDED18100AF8DB4 /* InternetMasterViewController.swift in Sources */,
+				2EFBF7B51FDED18100AF8DB4 /* InternetDetailViewController.swift in Sources */,
 				2E42B9931FD6EFDB00573CBE /* DrawingView.swift in Sources */,
 				2E806CD21FA22500002584D8 /* CreativityController.swift in Sources */,
 				2EED73041FC32C0D0062315E /* Wearable.swift in Sources */,

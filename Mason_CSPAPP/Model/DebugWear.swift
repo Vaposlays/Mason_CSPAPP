@@ -7,15 +7,18 @@
 //
 
 import Foundation
-public class DebugClothes : wearable
+import UIKit
+
+public class DebugClothes : Wearable
 {
-    private var  clothesColor :UIColor
+
+    private var  clothesColor : UIColor
     //MARK: Wearable data member
-    public var wearableState: Bool
+    public var wearState: Bool
     
     public init()
     {
-        self.clothesColor= UIColor()
+        self.clothesColor = UIColor()
         self.wearState = false
     }
     
@@ -36,6 +39,6 @@ public class DebugClothes : wearable
         {
             print("oops im naked")
         }
-        return wearStateÍ
+        return wearState
     }
 }
