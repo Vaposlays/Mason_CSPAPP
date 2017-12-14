@@ -22,7 +22,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="2dm-Bi-HbG" kind="showDetail" id="0GU-Lm-tNz"/>
+                                    <segue destination="uaK-Dy-U0t" kind="show" id="RQM-nH-0ZX"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Npr-q5-Z09" customClass="DrawingView" customModule="Mason_CSPAPP" customModuleProvider="target">
@@ -37,22 +37,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1124" y="-888.30584707646187"/>
+            <point key="canvasLocation" x="-1471" y="-939"/>
+        </scene>
+        <!--Programming Controller-->
+        <scene sceneID="Gcs-6a-z5b">
+            <objects>
+                <viewController id="uaK-Dy-U0t" customClass="ProgrammingController" customModule="Mason_CSPAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qro-Z7-jEW" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="fX1-QV-oVo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rpq-cr-Poj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1471" y="-1635"/>
         </scene>
         <!--ProgrammingController-->
         <scene sceneID="MXU-6p-RbW">
             <objects>
-                <viewController title="ProgrammingController" id="Leh-tE-PpM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="lTl-RU-IMs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="S36-ZX-Imf"/>
-                    </view>
-                </viewController>
+                <viewController title="ProgrammingController" id="Leh-tE-PpM" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YW3-IO-Z7A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1004" y="537"/>
+            <point key="canvasLocation" x="-382" y="-1418"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Gkw-ka-ee7">
