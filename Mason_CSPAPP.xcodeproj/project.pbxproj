@@ -31,6 +31,7 @@
 		2E806CDA1FA22561002584D8 /* AbstractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E806CD91FA22561002584D8 /* AbstractionController.swift */; };
 		2E806CDC1FA22572002584D8 /* DataAndInformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E806CDB1FA22572002584D8 /* DataAndInformationController.swift */; };
 		2E806CDE1FA22589002584D8 /* AlgorithmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E806CDD1FA22589002584D8 /* AlgorithmController.swift */; };
+		2EA2AF891FE9687000B44B02 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA2AF881FE9687000B44B02 /* DeathScene.swift */; };
 		2EED73041FC32C0D0062315E /* Wearable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EED73031FC32C0D0062315E /* Wearable.swift */; };
 		2EED73061FC32C180062315E /* DebugWear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EED73051FC32C180062315E /* DebugWear.swift */; };
 		2EFBF7B51FDED18100AF8DB4 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBF7B31FDED18100AF8DB4 /* InternetDetailViewController.swift */; };
@@ -88,6 +89,7 @@
 		2E806CD91FA22561002584D8 /* AbstractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionController.swift; sourceTree = "<group>"; };
 		2E806CDB1FA22572002584D8 /* DataAndInformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInformationController.swift; sourceTree = "<group>"; };
 		2E806CDD1FA22589002584D8 /* AlgorithmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmController.swift; sourceTree = "<group>"; };
+		2EA2AF881FE9687000B44B02 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		2EED73031FC32C0D0062315E /* Wearable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wearable.swift; sourceTree = "<group>"; };
 		2EED73051FC32C180062315E /* DebugWear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugWear.swift; sourceTree = "<group>"; };
 		2EFBF7B31FDED18100AF8DB4 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				2E2957DA1FE1827100CF353F /* GameScene.swift */,
 				2E2957D91FE1827100CF353F /* LevelCompleteScene.swift */,
 				2E2957DB1FE1827200CF353F /* StartScene.swift */,
+				2EA2AF881FE9687000B44B02 /* DeathScene.swift */,
 			);
 			name = GameController;
 			path = Game;
@@ -395,6 +398,7 @@
 				2E806C9D1FA2203C002584D8 /* ViewController.swift in Sources */,
 				2E2957D41FE177C500CF353F /* Player.swift in Sources */,
 				2E806C9B1FA2203C002584D8 /* AppDelegate.swift in Sources */,
+				2EA2AF891FE9687000B44B02 /* DeathScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
